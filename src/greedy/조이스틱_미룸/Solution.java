@@ -1,4 +1,4 @@
-package greedy.조이스틱_220124;
+package greedy.조이스틱_미룸;
 
 class Solution {
     public int solution(String name) {

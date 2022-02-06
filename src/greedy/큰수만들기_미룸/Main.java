@@ -1,4 +1,4 @@
-package greedy.큰수만들기_220124;
+package greedy.큰수만들기_미룸;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

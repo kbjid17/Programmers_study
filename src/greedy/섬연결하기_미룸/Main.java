@@ -1,4 +1,4 @@
-package greedy.섬연결하기_220130;
+package greedy.섬연결하기_미룸;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
