@@ -6,13 +6,11 @@ class Solution {
         int target_word_cnt = 0;
         int other_word_cnt = 0;
         for(int i = 0; i < s.length(); i++) {
-            System.out.println(target_word + " " + s.charAt(i));
             if(target_word == '.') 
             {
                 answer++;
                 target_word = s.charAt(i);
                 target_word_cnt++;
-                System.out.println(target_word + "로 진행");
                 continue;
             }
             if(s.charAt(i) == target_word) 
@@ -26,9 +24,6 @@ class Solution {
                 target_word = '.';
             }
         }
-
-        
-        
         return answer;
     }
 }
