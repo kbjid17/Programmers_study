@@ -11,7 +11,6 @@ public class Main {
 		for (int i = 0; i < num; i++) {
 			int money = Integer.parseInt(br.readLine());
 			
-			// 쿼터 (0.25) > 다임(0.10) > 니켈(0.05) > 페니(0.01)
 			int q = money/25;
 			sb.append(q).append(" ");
 			money %= 25;
